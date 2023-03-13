@@ -1,3 +1,2 @@
 #!/bin/bah
-echo "Hello, World
-"
+echo "Hello, World\n"
