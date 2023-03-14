@@ -1,2 +1,1 @@
-# alx-system_engineering-devop
-Managing redirections of input and output in shell
+Working with shell variables and expansions
