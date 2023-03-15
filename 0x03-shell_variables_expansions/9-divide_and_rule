@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$POWER/$DIVIDE" | bc
+echo -e '$POWER/$DIVIDE\n'
