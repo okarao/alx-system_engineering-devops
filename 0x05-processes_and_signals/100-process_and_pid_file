@@ -5,7 +5,7 @@ s script creates the file /var/run/myscript.pid containing its PID
 # Deletes the file /var/run/myscript.pid and terminate itself when receiving a SIGQUIT or SIGTERM signal
 
 function love() {
-    rm /var/run/holbertonscript.pid
+    rm /var/run/myscript.pid
     exit
 }
 
