@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 # Pings an IP address provided by the user 5 times
+if [-z "$1" ]; then
+	echo "Usage: $0 <IP address>"
+	exit 1
+fi
+
 sudo ping -c 5 "$@"
